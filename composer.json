@@ -1,0 +1,24 @@
+{
+    "name": "delwathon/schedule-module",
+    "description": "Schedule-module is a module that manages timetable and subject timing for the eduthon product",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Toyibu Abidogun",
+            "email": "toyibu.abidogun@delwathon.com"
+        }
+    ],
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Schedule\\": ""
+        }
+    }
+}
